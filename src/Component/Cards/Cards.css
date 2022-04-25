@@ -1,0 +1,30 @@
+.Cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0px 26px 2rem 26px;
+  height: 14rem;
+  width: 10rem;
+  border: 7px solid var(--orangeCard);
+  position: absolute;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.26);
+  box-shadow: var(--boxShadow);
+  text-align: center;
+
+  /* box-shadow: 0px 0px 5px 6px rgb(100 205 222 / 60%); */
+}
+.CardEmoji {
+  transform: scale(0.6);
+  margin-bottom: -2rem;
+}
+span {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+p {
+  color: var(--gray);
+  font-size: 16px;
+}
