@@ -1,0 +1,61 @@
+.contact-wrapper {
+  display: flex;
+  padding: 0 3rem;
+  height: 80vh;
+  margin-top: 13rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+.c-left {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+}
+.contact-head {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.contact-span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--orange);
+}
+.c-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.c-right {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.c-right .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3rem;
+  outline: none;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 2px solid var(--orange);
+}
+textarea {
+  height: 4rem !important;
+}
+input.button {
+  border: none;
+  border-radius: 40px;
+  background: var(--orange);
+  color: white;
+  padding: 11px 26px;
+  font-size: 16px;
+}
+input.button:hover {
+  background: var(--white);
+  color: var(--orange);
+  cursor: pointer;
+  border: 2px solid var(--orange);
+}

@@ -90,7 +90,6 @@
   width: 22rem;
   height: 14rem;
   border-radius: 50%;
-  background-color: #d7b0f0;
   filter: blur(212px);
   z-index: -9;
   filter: blur(72px);
@@ -98,6 +97,7 @@
 .gradient-1 {
   top: -4rem;
   right: -10rem;
+  background-color: #d7b0f0;
 }
 .gradient-2 {
   left: -8rem;

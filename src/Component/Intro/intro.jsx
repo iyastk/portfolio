@@ -1,4 +1,4 @@
-import React, { createElement } from "react";
+import React from "react";
 import "./intro.css";
 import Github from "./../../img/github.png";
 import linkedIn from "./../../img/linkedin.png";
@@ -24,13 +24,13 @@ function Intro() {
         </div>
         <button className="I-button">Hire me</button>
         <div className="I-Icons">
-          <a href="">
+          <a href="https://github.com/iyastk">
             <img src={Github} alt="" />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/iyas-t-02b96912b">
             <img src={linkedIn} alt="" />
           </a>
-          <a href="">
+          <a href="https://github.com/iyastk">
             <img src={Insta} alt="" />
           </a>{" "}
         </div>

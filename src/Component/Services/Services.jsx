@@ -4,6 +4,7 @@ import "./Services.css";
 import Glasses from "./../../img/glasses.png";
 import Humble from "./../../img/humble.png";
 import Heartemoji from "./../../img/heartemoji.png";
+import Resume from "./Resume.pdf";
 
 function Services() {
   return (
@@ -15,7 +16,9 @@ function Services() {
           I Build really awesome web Application with great <br />
           design and speed
         </p>
-        <button className=" s-button">Download CV</button>
+        <a href={Resume}>
+          <button className=" s-button">Download CV</button>
+        </a>
       </div>
       <div className="S-right">
         <div style={{ left: "14rem" }}>
@@ -41,6 +44,7 @@ function Services() {
           ></Cards>
         </div>
       </div>
+      <div className="blur2"></div>
     </div>
   );
 }

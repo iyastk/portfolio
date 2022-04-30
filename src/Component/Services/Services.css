@@ -4,6 +4,7 @@
   height: 90vh;
   margin-top: 9rem;
   margin-bottom: 13rem;
+  position: relative;
 }
 .S-left {
   display: flex;
@@ -39,4 +40,15 @@
 }
 .S-right > * {
   position: absolute;
+}
+.blur2 {
+  position: absolute;
+  top: 15rem;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: #d7b0f0;
+  filter: blur(212px);
+  z-index: -9;
+  filter: blur(72px);
 }
