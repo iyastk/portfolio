@@ -28,7 +28,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="contact-wrapper">
+    <div className="contact-wrapper" id="Contact us">
       <div className="c-left">
         <span className="contact-head">Get in Touch </span>
         <span className="contact-span">Contact me</span>

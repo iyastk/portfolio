@@ -5,10 +5,13 @@ import Glasses from "./../../img/glasses.png";
 import Humble from "./../../img/humble.png";
 import Heartemoji from "./../../img/heartemoji.png";
 import Resume from "./Resume.pdf";
+import { motion } from "framer-motion";
 
 function Services() {
+  // using Animation
+  const transition = { duration: 2, type: "spring" };
   return (
-    <div className="services">
+    <div className="services" id="Services">
       <div className="S-left">
         <span className="services-head">My Awesome </span>
         <span className="services-span">services</span>
@@ -21,28 +24,43 @@ function Services() {
         </a>
       </div>
       <div className="S-right">
-        <div style={{ left: "14rem" }}>
+        <motion.div
+          initial={{ left: "20rem" }}
+          whileInView={{ left: "6rem" }}
+          transition={transition}
+          style={{ left: "14rem" }}
+        >
           <Cards
             Image={Glasses}
             head="Design"
             data="coreldraw, photoshop,Adobe illustrator, adobe xd"
           ></Cards>
-        </div>
+        </motion.div>
 
-        <div style={{ left: "-4rem", top: "12rem" }}>
+        <motion.div
+          initial={{ right: "-20rem" }}
+          whileInView={{ left: "-10rem" }}
+          transition={transition}
+          style={{ left: "-4rem", top: "12rem" }}
+        >
           <Cards
             Image={Humble}
             head="Developer"
             data="Html,Css, javascript, React, Node.js, Express"
           ></Cards>
-        </div>
-        <div style={{ left: "12rem", top: "19rem" }}>
+        </motion.div>
+        <motion.div
+          initial={{ left: "20rem" }}
+          whileInView={{ left: "9rem" }}
+          transition={transition}
+          style={{ left: "12rem", top: "19rem" }}
+        >
           <Cards
             Image={Heartemoji}
             head="UI/UX"
             data="develop aweful frontend designs"
           ></Cards>
-        </div>
+        </motion.div>
       </div>
       <div className="blur2"></div>
     </div>
