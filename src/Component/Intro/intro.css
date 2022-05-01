@@ -105,3 +105,15 @@
   background-color: #c1f5ff;
   /* box-shadow: -122px -50px 40px 50px rgb(105 232 239 / 42%); */
 }
+
+/* media queiries */
+@media screen and (max-width: 480px) {
+  .Intro {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .I-right {
+    transform: scale(0.58);
+    left: -4rem;
+  }
+}

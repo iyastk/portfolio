@@ -31,9 +31,9 @@ const Testimonial = () => {
   return (
     <div className="t-wrapper" id="Testimonials">
       <div className="head">
-        <span className="t-header">client always</span>
-        <span className="t-middle">get exceptional works</span>
-        <span className="t-last">from me...</span>
+        <span className="t-header">Client always get</span>
+        <span className="t-middle"> Exceptional works</span>
+        <span className="t-last">From me...</span>
         <div
           className="blur t-blur-1"
           style={{ background: "var(--purple)" }}

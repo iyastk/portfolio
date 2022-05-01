@@ -68,3 +68,26 @@
 .testimonial > span {
   color: var(--gray);
 }
+@media screen and (max-width: 480px) {
+  .head {
+    flex-direction: column;
+  }
+  .head > * {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .testimonial {
+    padding: 0.8rem;
+    text-align: center;
+    height: 30rem;
+    transform: scale(0.7);
+    /* margin: 5rem 0; */
+  }
+  .t-wrapper .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .t-wrapper {
+    padding: 1.5rem;
+  }
+}

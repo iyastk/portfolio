@@ -6,3 +6,14 @@
   justify-content: center;
   gap: 10rem;
 }
+@media screen and (max-width: 480px) {
+  .experience {
+    flex-direction: column;
+    margin-top: 20rem;
+    height: 70%;
+    gap: 3rem;
+  }
+  .experience > * {
+    position: static;
+  }
+}

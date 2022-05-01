@@ -12,13 +12,15 @@
 
   flex: 1;
 }
-.contact-head {
+.c-left > * {
   font-size: 3rem;
   font-weight: bold;
 }
+.contact-head {
+  /* font-size: 3rem;
+  font-weight: bold; */
+}
 .contact-span {
-  font-size: 3rem;
-  font-weight: bold;
   color: var(--orange);
 }
 .c-form {
@@ -58,4 +60,16 @@ input.button:hover {
   color: var(--orange);
   cursor: pointer;
   border: 2px solid var(--orange);
+}
+
+@media screen and (max-width: 480px) {
+  .contact-wrapper {
+    flex-direction: column;
+    margin-top: 2rem;
+    /* margin-bottom: 10rem; */
+    transform: scale(0.8);
+  }
+  .c-left > * {
+    font-size: 2rem;
+  }
 }

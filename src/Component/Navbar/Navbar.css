@@ -34,3 +34,13 @@
   cursor: pointer;
   color: var(--orange);
 }
+
+/* media queiries */
+@media screen and (max-width: 480px) {
+  .N-right {
+    display: none;
+  }
+  .N-button {
+    display: none;
+  }
+}

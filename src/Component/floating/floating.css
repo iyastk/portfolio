@@ -28,3 +28,13 @@
   font-family: sans-serif;
   font-size: 16px;
 }
+@media screen and (max-width: 480px) {
+  .ThumbBox {
+    left: 9% !important;
+  }
+  .CrownBox {
+    left: 110% !important;
+    top: -3rem !important;
+    transform: scale(0.92) !important;
+  }
+}
